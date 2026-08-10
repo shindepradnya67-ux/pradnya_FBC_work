@@ -1,8 +1,0 @@
-## Python program to find the intersection of two lists
-li1=[10,20,30,40]
-li2=[30,40,50,60]
-intersection=[]
-for i in range(0,len(li1)):
-    if li1[i] in li2 and li1[i] not in intersection:
-        intersection+=[li1[i]]
-print("Intersection=",intersection)
